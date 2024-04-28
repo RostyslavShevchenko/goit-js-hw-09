@@ -9,5 +9,5 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";import{S as i}from"./assets/
     onclick="return false;"
     data-source="${o}"/>
     </a>
-    </li>`).join("");e.innerHTML=n;new i(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250,close:!1});
+    </li>`).join("");e.innerHTML=n;new i(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});
 //# sourceMappingURL=commonHelpers2.js.map
