@@ -12,6 +12,8 @@
     background-color: azure;
     gap: 8px;
     font-family: "Montserrat", sans-serif;
+    border: 2px solid #a8a3a3;
+    border-radius: 16px;
 }
 
 label {
