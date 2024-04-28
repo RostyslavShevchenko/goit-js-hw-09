@@ -6,3 +6,40 @@
 */
 @import url('./reset.css');
 @import url('./root.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navigation {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #f3ecec;
+  border: 1px solid #e9d8d8;
+  border-radius: 12px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+
+.nav-list a {
+  padding: 8px 16px;
+  background-color:#86a1d6;
+  color:aqua;
+  border-radius: 12px;
+  border: 1px solid #86a1d6;
+}
+
+.nav-list a:hover,
+.nav-list a:focus{
+  background-color:#9db2db;
+  color: rgb(44, 245, 245);
+  outline: none;
+  border: 1px solid rgb(7, 138, 138)
+}

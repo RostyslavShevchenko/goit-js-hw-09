@@ -16,6 +16,24 @@ img {
     max-width: 100%;
 }
 
+.back-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #86a1d6;
+    color: aqua;
+    border-radius: 12px;
+    border: 1px solid #86a1d6;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover,
+.back-btn:focus {
+    background-color: #9db2db;
+    color: rgb(44, 245, 245);
+    outline: none;
+    border: 1px solid rgb(7, 138, 138)
+}
+
 .gallery-link {
     display: inline-block;
 }
